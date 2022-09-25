@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng jest"
+    "test": "ng jest",
+    "udpateSnapshot": "ng jest -u"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +28,6 @@
     "@angular-devkit/build-angular": "^14.2.1",
     "@angular/cli": "~14.2.1",
     "@angular/compiler-cli": "^14.0.0",
-    "@types/jasmine": "~4.0.0",
     "@types/jest": "^29.0.3",
     "jasmine-core": "~4.3.0",
     "jest": "^28.1.3",
